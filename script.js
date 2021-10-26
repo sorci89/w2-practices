@@ -11,3 +11,9 @@ function loadEvent() {
 }
 
 window.addEventListener("load", loadEvent);
+
+/*
+function buttonClicked(event){
+   document.getElementById("bodyId").classList.toggle("clicked");
+} */   
+
