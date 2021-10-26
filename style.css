@@ -36,11 +36,27 @@ select {
     width: 40px;
     height: 40px;
     margin: 20px; 
+    z-index: 10;
 
     background-color: black;
-
+}
+#menu-btn.clicked{
+    background-color: red;
 }  
   section {
     min-height: 100vh;
+}
 
+#nav{
+    position: fixed;
+    top: 0; right: -200px;
+    width: 200px;
+    height: 100vh;
+    z-index: 9;
+
+    background-color: blue;
+}
+
+#nav.clicked{
+    right:0;
 }
