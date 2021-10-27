@@ -40,7 +40,7 @@ select {
 
     background-color: black;
 }
-#menu-btn.clicked{
+body.clicked > #menu-btn{
     background-color: red;
 }  
   section {
@@ -57,6 +57,6 @@ select {
     background-color: blue;
 }
 
-#nav.clicked{
+body.clicked > #nav{
     right:0;
 }
