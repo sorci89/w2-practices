@@ -60,3 +60,26 @@ select {
 #nav.clicked{
     right:0;
 }
+
+.randomDiv{
+  display: inline;
+}
+
+header{
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin: 20px;
+  border: 10px solid blue;
+
+  background-color: crimson;
+}
+
+header .randomDiv2 {
+position: absolute;
+top: 0px;
+left: 0px;
+width: 40px;
+height: 40px;
+background-color: black;
+}
